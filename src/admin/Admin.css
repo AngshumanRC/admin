@@ -1,0 +1,139 @@
+.adminMainDiv{
+	position: relative;
+	z-index: 500;
+	background-color: rgb(214, 213, 203);
+
+}
+.adminNavbar{
+	background-color: white;
+	width: 100%;
+	height: 6vh; 
+    box-shadow: 0px 6px 21px 1px rgba(0,0,0,0.58);
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminNavbar1{
+	width: 20%;
+	display: flex;
+}
+
+.adminMenu{
+	background-color: white;
+	width: 20%;
+	height: 135vh;
+}
+
+.adminContent{
+	width: 80%;
+	position: relative;
+}
+
+.adminMenu-content{
+	display: flex;
+}
+
+.adminHeader{
+	position: absolute;
+	left: 5%;
+	height: 13%;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.adminFloat{
+	margin-right: 100px;
+	background-color: white;
+	width: 80%;
+	height: 25px;
+	border-radius: 10px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;;
+}
+
+.adminImages{
+	position: absolute;
+	top:15%;
+	height: 87%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.adminOuter{
+	width: 44%;
+	height: 44%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.adminImg1{
+	width: 44%;
+	height: 44%;
+	border-radius: 15px;
+}
+
+.adminDiv1{
+	background-color:rgb(0, 71, 171); 
+}
+.adminDiv2{
+	background-color: rgb(93, 63, 211);
+}
+.adminDiv3{
+	background-color: rgb(0, 0, 255);
+}
+.adminDiv4{
+	background-color: rgb(0, 150, 255);
+}
+
+.adminDiv1,.adminDiv2,.adminDiv3,.adminDiv4{
+	width: 48%;
+	height: 48%;
+	border-radius: 15px;
+}
+
+
+.adminHeader1{
+	font-size: 15px;
+}
+
+.adminHeader1,.adminHeader6{
+	text-align: center;
+	color: white;
+}
+
+footer{
+	background-color: black;
+	height: 45px;
+	color: white;
+	text-align: center;
+}
+
+.adminSearch{
+	width: 100%;
+	height: 86%;
+	border-color: white;
+
+}
+
+.adminProfilepic{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.adminSearch-profile{
+	width: 80%;
+	display: flex;
+}
+
+.adminLogo{
+	width: 60%;
+}
